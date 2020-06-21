@@ -2,5 +2,7 @@
 function startAll(){
   start();
 }
-function start(){
-}
+(function start(){
+  console.log("内部console");
+})();
+console.log("外部console");
